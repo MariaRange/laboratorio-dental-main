@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Laboratorio Dental Flores Web</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon1.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medicio - v2.1.1
+  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center">
+        <i class="icofont-clock-time"></i> Lunes-Viernes, 9:30AM a 2PM y 4PM a 8PM || Sábado, 9:30AM a 2PM
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="icofont-phone"></i> Llámanos 6181857696
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <h1 class="logo mr-auto"><a href="index.html">Medicio</a></h1> -->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Inicio</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#services">Productos</a></li>
+          <li><a href="#departments">Departamentos</a></li>
+          <li><a href="#doctors">Equipo</a></li>
+          <!-- <li class="drop-down"><a href="">Drop Down</a>
+          <ul>
+            <li><a href="#">Drop Down 1</a></li>
+            <li class="drop-down"><a href="#">Deep Drop Down</a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+          </ul>
+        </li> -->
+          <li><a href="#contact">Contacto</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+          <div class="container">
+            <h2>Bienvenido a <span>Laboratorio Dental Flóres</span></h2>
+            <p>Somos una empresa comprometida con la calidad y satisfacción de nuestros clientes.</p>
+            <a href="#about" class="btn-get-started scrollto">Leer más</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+          <div class="container">
+            <h2>Somos los mejores</h2>
+            <p>Con bases sólidas nos damos a conocer</p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+          <div class="container">
+            <h2>Contamos con medidas de higiene adecuadas</h2>
+            <p>Puedes confiar en nuestro equipo, en Laboratorio Dental Flóres nos comprometemos contigo</p>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="icofont-live-messenger"></i></div>
+              <h4 class="title"><a href="">Quienes somos</a></h4>
+              <p class="description">Somos una empresa dedicada a la realización de prótesis y rehabilitación dental
+                desde 1998.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="icofont-clock-time"></i></div>
+              <h4 class="title"><a href="">Remoto</a></h4>
+              <p class="description">Iniciando solo con prótesis fija, prostodoncias acrílico, prótesis removible y
+                aparatos de ortodoncia.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="icofont-connection"></i></div>
+              <h4 class="title"><a href="">Actual</a></h4>
+              <p class="description">Actualmente fabricamos y reparamos todo tipo de prótesis dentales ofreciendo
+                calidad y constancia.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="icofont-badge"></i></div>
+              <h4 class="title"><a href="">Talento</a></h4>
+              <p class="description">Contamos con un equipo de protesistas dentales altamente capacitados para ofrecer
+                una atención de gran calidad.
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Horario del Laboratorio</h3>
+          <p>¿Nesecitas saber nuestro horario de atención? Da click en el siguiente botón</p>
+          <a class="cta-btn scrollto" href="#appointment">Horario</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Sobre nosotros</h2>
+          <p>Nuestro objetivo es mantener actualizados nuestros conocimientos, habilidades y destrezas para manipular
+            los materiales y tecnología con los que contamos para entregar un trabajo acorde con las exigencias,
+            entregando la óptima presentación del servicio.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="assets/img/about.jpg" class="img-fluid imagen" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Nuestra Misión y Visión</h3>
+            <ul>
+              <li><i class="icofont-check-circled"></i>Misión</li>
+              <p class="font-italic">
+                Satisfacer las necesidades de nuestros clientes, odontólogos y pacientes, mediante la elaboración de
+                prótesis y rehabilitación dental, realizadas con calidad y estética. utilizando tecnología de punta,
+                materiales contemporáneos y procesos de fabricación innovadores, para que el usuario obtenga el mejor
+                provecho de su inversión.
+                Por medio de un equipo de trabajo de gran experiencia, capacitado y versátil.
+              </p>
+              <li><i class="icofont-check-circled"></i>Visión</li>
+              <p class="font-italic">
+                Ser una empresa líder en el sector de la industria dental a nivel nacional, con capacidad de competir
+                exitosamente, con un equipo comprometido, generando productos y servicios innovadores que satisfagan las
+                necesidades de los odontólogos y pacientes, con altos estándares de calidad en materiales, procesos de
+                producción, cumplimiento, diseño y conciencia de servicio al cliente que garantice solidez y
+                reconocimiento de la empresa, evolucionando constantemente nuestros productos y servicios para ofrecer
+                la mejor calidad y costos en la fabricación de prótesis dentales y rehabilitación dental integral.
+              </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="icofont-surgeon"></i>
+              <span data-toggle="counter-up">8</span>
+              <p><strong>Colaboradores</strong> Contamos con el mejor equipo</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="icofont-building-alt"></i>
+              <span data-toggle="counter-up">1</span>
+              <p><strong>Laboratorio</strong> Nuestro Laboratorio esta bien equipado</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="icofont-tooth"></i>
+              <span data-toggle="counter-up">5</span>
+              <p><strong>Departamentos</strong> Contamos con cada especialidad</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="icofont-award"></i>
+              <span data-toggle="counter-up">100</span>
+              <p><strong>Logros</strong> Nuestro equipo cuenta con más de 100 reconocimientos</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="servicios servicios">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Productos</h2>
+          <p>Características</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+                  <h4>Encerado de diagnostico</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-2">
+                  <h4>Corona e incrustacion de metal porcelana</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-3">
+                  <h4>Corona e incrustacion de zirconia</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-4">
+                  <h4>Corona e incrustacion de disilicato</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-5">
+                  <h4>Corona e incrustacion de metal-ceramica</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-6">
+                  <h4>Corona e incrustacion NPG+2</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <h3>Encerado de diagnostico</h3>
+                <p class="font-italic">Protesis fija</p>
+                <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                <p>Es una técnica utilizada en la prótesis dental para obtener una visualización del plan del
+                  tratamiento a realizar el cual se le muestra al paciente para su aprobación del tratamiento, consiste
+                  en forma, tamaño y color del diente a tratar.</p>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <h3>Corona e incrustacion de metal porcelana</h3>
+                <p class="font-italic">Protesis fija</p>
+                <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                <p>La parte interior de la corona está realizada en metal ceramico, en cambio la parte externa está
+                  revestida con porcelana Vita dando un aspecto más natural al diente, gracias a su resistencia y al
+                  precio más asequible en comparación con otros tipos de coronas es la más utilizada.</p>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <h3>Corona e incrustacion de zirconia</h3>
+                <p class="font-italic">Protesis fija</p>
+                <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
+                <p>Es un material cerámico cada vez más demandado en odontología para confeccionar restauraciones
+                  dentales, sobre todo en fundas y coronas sobre implantes.</p>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <h3>Corona e incrustacion de disilicato</h3>
+                <p class="font-italic">Protesis fija</p>
+                <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
+                <p>Realizada en disilicato de que es una mezcla de cerámica y vidrio, que devolverán la salud, función y
+                  estética de los dientes dañados dando tonos naturales y translucidos para rehabilitaciones altamente
+                  estéticas.</p>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <h3>Corona e incrustacion de metal-ceramica</h3>
+                <p class="font-italic">Protesis fija</p>
+                <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
+                <p>Es una prótesis dental creada mediante aleación de dos metales generalmente de cromo-cobalto y níquel-cromo.</p>
+              </div>
+              <div class="tab-pane" id="tab-6">
+                <h3>Corona e incrustacion NPG+2</h3>
+                <p class="font-italic">Protesis fija</p>
+                <img src="assets/img/departments-6.jpg" alt="" class="img-fluid">
+                <p>Es una aleación no preciosa entre metales la cual contiene un dos porciento de Au en su composición, con la cual fabrican la prótesis dental con color similar a el de el oro.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <p>Características</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-toggle="tab" href="#tab-7">
+                  <h4>Prostodoncias acrílicas totales</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-8">
+                  <h4>Prostodoncias de acrílicos parciales</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-9">
+                  <h4>Removible metal acrílico</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-10">
+                  <h4>Prostodoncia totales, parciales, flexibles</h4>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-11">
+                  <h4>Aparatología ortodontica</h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-7">
+                <h3>Prostodoncias acrílicas totales</h3>
+                <p class="font-italic">Protesis acrílicos</p>
+                <img src="assets/img/departments-7.jpg" alt="" class="img-fluid">
+                <p>Conocidas por la gente comúnmente como dentaduras postizas. Se realizan cuando el paciente no tiene ningún diente, siendo por tanto mucosoportadas al carecer de pilares para la sujeción. El soporte de la prótesis se toma a partir de unas anchas bases, que se extienden sobre la superficie de la mucosa en los procesos alveolares.</p>
+              </div>
+              <div class="tab-pane" id="tab-8">
+                <h3>Prostodoncias de acrílicos parciales</h3>
+                <p class="font-italic">Protesis acrílicos</p>
+                <img src="assets/img/departments-8.jpg" alt="" class="img-fluid">
+                <p>Se realizan cuando el paciente tiene algún diente remanente, que contribuirá a la retención de la prótesis mediante retenedores forjados o colados mayormente conocidas como placas parciales.</p>
+              </div>
+              <div class="tab-pane" id="tab-9">
+                <h3>Removible metal acrílico</h3>
+                <p class="font-italic">Protesis removible</p>
+                <img src="assets/img/departments-9.jpg" alt="" class="img-fluid">
+                <p>Se elaboran mediante una estructura metálica realizada con metal cromo- cobalto, Los dientes y las reconstrucciones de la encía son de resina acrílica. Son removibles, es decir, puede extraerlas y colocarlas el propio paciente.</p>
+              </div>
+              <div class="tab-pane" id="tab-10">
+                <h3>Prostodoncia totales, parciales, flexibles</h3>
+                <p class="font-italic">Partial flex</p>
+                <img src="assets/img/departments-10.jpg" alt="" class="img-fluid">
+                <p>Son prostodoncias realizadas con material partial flex es un material biocompatible, hipoalergénico, sin grado de toxicidad para uso en el humano.</p>
+              </div>
+              <div class="tab-pane" id="tab-11">
+                <h3>Aparatología ortodontica</h3>
+                <p class="font-italic">Aparotología</p>
+                <img src="assets/img/departments-11.jpg" alt="" class="img-fluid">
+                <p>La aparatología removible es el tratamiento ortodóntico empleado en la dentición temporal y mixta utilizado para provocar cambios histológicos en los tejidos del órgano masticatorio a través de estímulos mecánicos sobre dientes y periodonto.</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Departments Section ======= -->
+    <section id="departments" class="departamentos">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Departamentos</h2>
+          <p>Especialidades</p>
+        </div>
+
+        <div class="row centrado">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <h4 class="title"><a href="">Gerencia</a></h4>
+            <p class="description">se encarga de planificar y guiar y controlar las estrategias laborales para que la
+              empresa se desarrolle.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <h4 class="title"><a href="">Área administrativa</a></h4>
+            <p class="description">Se encarga de coordinar las cuestiones financieras de la empresa, además de gestionar
+              los recursos humanos de la misma.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+            <h4 class="title"><a href="">Área acrilicos</a></h4>
+            <p class="description">Es el área donde se fabrican las prótesis dentales que están confeccionadas en su
+              totalidad o parte de ellas por resinas acrílicas.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <h4 class="title"><a href="">Área protesis fija</a></h4>
+            <p class="description">Es el área donde se trabaja con metales y porcelanas dentales, realizando el montaje
+              y tallado de las porcelanas dándole anatomía morfológica correspondiente a cada pieza dental.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <h4 class="title"><a href="">Área de aparatologia</a></h4>
+            <p class="description">Es el área donde se realizan diferentes aparatos hechos de resinas acrílicas y
+              alambres dentales, los cuales son utilizados en tratamientos ortodrómicos.</p>
+          </div>
+        </div>
+    </section><!-- End Departments Section -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonios</h2>
+          <p>La opinion de nuestros clientes nos importa, sus experiencias al hacer uso de nuestros servicios es
+            primordial. Aqui puedes ver algunas opiniones de nuestros clientes.</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+              quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+              quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
+              labore quem eram duis noster aute amet eram fore quis sint minim.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim
+              dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+              labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Doctors Section ======= -->
+    <section id="doctors" class="doctors section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Equipo</h2>
+          <p>Contamos con un equipo de trabajo altamente capacitado, preparado para ofrecerte la mejor calidad, con
+            principios y valores.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Jorge Flores Simental</h4>
+                <span>Técnico protesista principal del laboratorio dental (gerente)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Rosa Priscila Flores</h4>
+                <span>Técnico protesista área acrílicos</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Nora Belem Flores</h4>
+                <span>Técnico protesista área prótesis fija</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Jorge Enrique Flores</h4>
+                <span>Técnico protesista área prótesis fija</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Dora Margarita Muñoz</h4>
+                <span>Técnico protesista área prótesis fija</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Cecilia Pazos De Haro</h4>
+                <span>Administrador</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Nancy Pamela Flores</h4>
+                <span>Ejecutivo de servicio al cliente</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt="">
+                <!-- <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info">
+                <h4>Octavio José Osorio</h4>
+                <span>Mensajero</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Doctors Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Galería</h2>
+          <p></p>
+        </div>
+
+        <div class="owl-carousel gallery-carousel" data-aos="fade-up" data-aos-delay="100">
+          <a href="assets/img/gallery/lab1.jpg" class="venobox" data-gall="gallery-carousel"><img class="imggaleria"
+              src="assets/img/gallery/lab1.jpg" alt=""></a>
+          <a href="assets/img/gallery/lab2.jpg" class="venobox" data-gall="gallery-carousel"><img class="imggaleria"
+              src="assets/img/gallery/lab2.jpg" alt=""></a>
+          <a href="assets/img/gallery/lab3.jpg" class="venobox" data-gall="gallery-carousel"><img class="imggaleria"
+              src="assets/img/gallery/lab3.jpg" alt=""></a>
+          <a href="assets/img/gallery/lab4.jpg" class="venobox" data-gall="gallery-carousel"><img class="imggaleria"
+              src="assets/img/gallery/lab4.jpg" alt=""></a>
+          <a href="assets/img/gallery/lab5.jpg" class="venobox" data-gall="gallery-carousel"><img class="imggaleria"
+              src="assets/img/gallery/lab5.jpg" alt=""></a>
+          <a href="assets/img/gallery/lab6.jpg" class="venobox" data-gall="gallery-carousel"><img class="imggaleria"
+              src="assets/img/gallery/lab6.jpg" alt=""></a>
+          <a href="assets/img/gallery/lab7.jpg" class="venobox" data-gall="gallery-carousel"><img class="imggaleria"
+              src="assets/img/gallery/lab7.jpg" alt=""></a>
+          <a href="assets/img/gallery/lab8.jpg" class="venobox" data-gall="gallery-carousel"><img class="imggaleria"
+              src="assets/img/gallery/lab8.jpg" alt=""></a>
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Frequently Asked Questioins Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Preguntas Frecuentes</h2>
+          <p>Frecuentemente surgen dudas por lo que aqui puedes consultarlas</p>
+        </div>
+
+        <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
+
+          <li>
+            <a data-toggle="collapse" class="" href="#faq1">¿A qué se dedica exactamente el Laboratorio Dental Flóres?
+              <i class="icofont-simple-up"></i></a>
+            <div id="faq1" class="collapse show" data-parent=".faq-list">
+              <p>
+                A la elaboración de prótesis dentales: fija, removible, aparotología, implantología.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">¿Puedo confiar en su trabajo? <i
+                class="icofont-simple-up"></i></a>
+            <div id="faq2" class="collapse" data-parent=".faq-list">
+              <p>
+                Si, ofrecemos materiales de calidad y constantemente nuestro equipo se encuentra bajo capacitación.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">¿Cúales son los beneficios de las protesis
+              dentales? <i class="icofont-simple-up"></i></a>
+            <div id="faq3" class="collapse" data-parent=".faq-list">
+              <p>
+                Devolver al paciente la función, estética y soporte muscular.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">¿Cúanto tiempo tardan en realizarlas? <i
+                class="icofont-simple-up"></i></a>
+            <div id="faq4" class="collapse" data-parent=".faq-list">
+              <p>
+                El tiempo determina el caso de cada trabajo a realizar ya sea una prótesis fija, removible, etc.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq5" class="collapsed">¿Puedo confiar en los materiales que utilizan? <i
+                class="icofont-simple-up"></i></a>
+            <div id="faq5" class="collapse" data-parent=".faq-list">
+              <p>
+                Los materiales son de alta calidad para la elaboración de nuestros productos o trabajos.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq6" class="collapsed">¿Cúales son sus medidas de higiene? <i
+                class="icofont-simple-up"></i></a>
+            <div id="faq6" class="collapse" data-parent=".faq-list">
+              <p>
+                Las medidas de higiene son la desinfección de modelos, uso constante de cubrebocas, entre otras.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questioins Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contacto</h2>
+          <p>Para contactarnos puedes llamar a nuestro numero telefónico, enviar un email, o visitarnos en nuestra
+            instalación.</p>
+        </div>
+
+      </div>
+
+      <div class="container">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Nuestra dirección</h3>
+                  <p>Cozumel 205, Azcapotzalco, 34160 Durango, Dgo México</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Envianos un correo</h3>
+                  <p>info@example.com<br>contact@example.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Llámanos</h3>
+                  <p>6181857696<br>+52 618 225 93 29</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="col-lg-6" id="form"></div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Laboratorio Dental Flóres</h3>
+              <p>
+                Cozumel 205, Azcapotzalco <br>
+                34160 Durango, Dgo México<br><br>
+                <strong>Teléfono:</strong> 6181857696<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://es-la.facebook.com/dentalfloreslab" class="facebook"><i class="bx bxl-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Productos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Politica de privacidad</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Medicio</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  </body>
+</html>
